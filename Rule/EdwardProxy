@@ -1,0 +1,6 @@
+# EdwardProxy
+# Custom rules from Surge Mac MAC.conf, originally using Proxy.
+# Policy is supplied by the RULE-SET reference.
+
+DOMAIN-SUFFIX,appstorrent.ru
+OR,((DOMAIN-SUFFIX,futbin.com), (DOMAIN-SUFFIX,ea.com,extended-matching))

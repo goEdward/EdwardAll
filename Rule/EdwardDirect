@@ -1,0 +1,20 @@
+# EdwardDirect
+# Custom rules from Surge Mac MAC.conf, originally using DIRECT.
+# Policy is supplied by the RULE-SET reference.
+
+PROCESS-NAME,mihomo-real
+PROCESS-NAME,mihomo
+PROCESS-NAME,/Users/edwardy/bin/mihomo-real
+PROCESS-NAME,/Users/edwardy/bin/mihomo
+
+# 紫鸟 VPS
+OR,((IP-CIDR,1.12.220.239/24,no-resolve), (IP-CIDR,42.194.206.39/24,no-resolve))
+
+DOMAIN,office.edward666.xyz
+# Ponte 重定向到路由器
+DOMAIN-SUFFIX,office.router,extended-matching
+
+PROCESS-NAME,/System/Applications/Music.app/Contents/MacOS/Music
+PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemoteService
+PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemoteDaemon
+PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemote
