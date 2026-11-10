@@ -1,6 +1,15 @@
 # EdwardProxy
-# Custom rules from Surge Mac MAC.conf, originally using Proxy.
+# Custom Proxy rules and local work proxy rules from Surge Mac.
 # Policy is supplied by the RULE-SET reference.
 
 DOMAIN-SUFFIX,appstorrent.ru
 OR,((DOMAIN-SUFFIX,futbin.com), (DOMAIN-SUFFIX,ea.com,extended-matching))
+
+# Imported from local work proxy (deduplicated).
+DOMAIN,www.aliexpress.com
+DOMAIN,www.aliexpress.us
+DOMAIN,vi.aliexpress.com
+DOMAIN,feedback.aliexpress.com
+DOMAIN,acs.aliexpress.com
+DOMAIN,acs.aliexpress.us
+DOMAIN-SUFFIX,yahoo.com

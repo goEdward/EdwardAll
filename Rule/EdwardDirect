@@ -1,5 +1,6 @@
 # EdwardDirect
-# Custom rules from Surge Mac MAC.conf, originally using DIRECT.
+# Custom DIRECT rules and local work dirct rules from Surge Mac.
+# Local work dirct originally uses the ip-version policy group.
 # Policy is supplied by the RULE-SET reference.
 
 PROCESS-NAME,mihomo-real
@@ -18,3 +19,17 @@ PROCESS-NAME,/System/Applications/Music.app/Contents/MacOS/Music
 PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemoteService
 PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemoteDaemon
 PROCESS-NAME,/Applications/UURemote.app/Contents/MacOS/UURemote
+
+# Imported from local work dirct.
+# appstorrent.ru remains in EdwardProxy, matching the original rule priority.
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,alipay
+DOMAIN-SUFFIX,csp.aliexpress.com
+DOMAIN-SUFFIX,gsp.aliexpress.com
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliexpress
+DOMAIN-SUFFIX,ixspy.com
+DOMAIN-KEYWORD,ziniao
+DOMAIN-SUFFIX,amz123.com
+DOMAIN-SUFFIX,kuaiaiapi.com
+DOMAIN-SUFFIX,ikuncode.cc
