@@ -11,7 +11,6 @@ PROCESS-NAME,/Users/edwardy/bin/mihomo
 # 紫鸟 VPS
 OR,((IP-CIDR,1.12.220.239/24,no-resolve), (IP-CIDR,42.194.206.39/24,no-resolve))
 
-DOMAIN,office.edward666.xyz
 # Ponte 重定向到路由器
 DOMAIN-SUFFIX,office.router,extended-matching
 
